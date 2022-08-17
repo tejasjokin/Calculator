@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +16,16 @@ namespace Calculator
         static double Division(int a, int b)
         {
             return a / b;
+        }
+        
+        static int Add(int a, int b)
+        {
+            return a + b;
+        }
+
+        static int Subtract(int a, int b)
+        {
+            return a- b;
         }
     }
 }
