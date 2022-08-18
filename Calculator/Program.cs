@@ -22,7 +22,7 @@
                         Console.WriteLine("Enter the second number: ");
                         var num2 = Convert.ToInt32(Console.ReadLine());
                         var num3 = CalculatorFunctions.Add(num1, num2);
-                        Console.WriteLine($"The addition of {num1} {num2} is: {num3}");
+                        Console.WriteLine($"The addition of {num1} and {num2} is: {num3}");
                         break;
                     case 2:
                         Console.WriteLine("Enter the first number: ");
@@ -30,7 +30,7 @@
                         Console.WriteLine("Enter the second number: ");
                         var num5 = Convert.ToInt32(Console.ReadLine());
                         var num6 = CalculatorFunctions.Subtract(num4, num5);
-                        Console.WriteLine($"The subtraction of {num4} {num5} is: {num6}");
+                        Console.WriteLine($"The subtraction of {num4} and {num5} is: {num6}");
                         break;
                     case 3:
                         Console.WriteLine("Enter the first number: ");
@@ -38,7 +38,7 @@
                         Console.WriteLine("Enter the second number: ");
                         var num8 = Convert.ToInt32(Console.ReadLine());
                         var num9 = CalculatorFunctions.Multiply(num7, num8);
-                        Console.WriteLine($"The multiplication of {num7} {num8} is: {num9}");
+                        Console.WriteLine($"The multiplication of {num7} and  {num8} is: {num9}");
                         break;
                     case 4:
                         Console.WriteLine("Enter the first number: ");
@@ -46,7 +46,7 @@
                         Console.WriteLine("Enter the second number: ");
                         var num11 = Convert.ToInt32(Console.ReadLine());
                         var num12 = CalculatorFunctions.Multiply(num10, num11);
-                        Console.WriteLine($"The division of {num10} {num11} is: {num12}");
+                        Console.WriteLine($"The division of {num10} and  {num11} is: {num12}");
                         break;
                     case 5:
                         Flag = false;
